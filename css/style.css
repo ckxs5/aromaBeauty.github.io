@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Arial", sans-serif;
+	background-image: url("../images/Oriole.jpg");
+	background-repeat: no-repeat;
+
+}
+nav{
+	width:100%;
+	background: black;
+	text-align: center;
+	opacity: 0.8;
+}
+ul{
+	width:100%;
+	margin:0 auto;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+
+a:hover{
+	color: white;
+}
+
+ul li a{
+	color: lightgrey;
+	text-decoration: none;
+}
+.menu-icon{
+	background-color:transparent;
+	border: transparent;
+}
+.logo{
+	width: 150px;
+	height:78px;
+}
+.ablogo{
+	width:150px;
+    height: 78px;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+.toggle{
+	box-sizing: border-box;
+	display: none;
+}
+@media (max-width: 768px){
+	.toggle{
+		display: block;
+	}
+	ul{
+		width: 100%;
+		display: none;
+	}
+	ul li{
+		display: block;
+		text-align: center;
+	}
+	.active{
+		display: block;
+	}
+	.ablogo{
+		display: none;
+	}
+}
+#about-section{
+	background-color: black;
+	height: 100%
+}
+#site-page{
+	height:100%;
+	/*margin-top: -5rem;*/
+}
