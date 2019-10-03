@@ -95,7 +95,7 @@ ul li a{
 	width: 100%;
 	height: 25% auto;
 	padding: 30px 34px;
-	background-color: lightblue;
+	background-color: rgb(23,23,23);
 }
 h1, .col-6{
 	text-align: center;
@@ -106,9 +106,10 @@ h1, .col-6{
 #carouselExampleControls{
 	margin: 5% 15%;
 }
-
 #site-page{
 	height:100%;
-	/*margin-top: -5rem;*/
 	display: block;
+}
+.site-address, .site-phone, .site-email{
+	color: rgb(183,183,183);
 }
