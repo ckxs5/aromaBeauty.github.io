@@ -1,7 +1,7 @@
 html, body{
 	margin: 0;
 	padding: 0;
-	font-family: "Arial", sans-serif;
+	font-family: monospace;
 	height: 100%;
 	width: 100%;
 }
@@ -35,6 +35,7 @@ a:hover{
 ul li a{
 	color: lightgrey;
 	text-decoration: none;
+	font-size: larger;
 }
 .menu-icon{
 	background-color:transparent;
@@ -73,9 +74,39 @@ ul li a{
 	}
 }
 #about-section{
-	background-color: black;
-	height: 100%
+	background-color: rgba(0, 0, 0, 0);
 }
+#facial-section{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+#products-section{
+	background-color: pink;
+}
+#contact-section{
+	background-color: yellow;
+}
+
+#about-section, #facial-section, #products-section, #contact-section{
+	height: auto;
+	padding: 68px 34px;
+	overflow: hidden;
+}
+#footer{
+	width: 100%;
+	height: 25% auto;
+	padding: 30px 34px;
+	background-color: lightblue;
+}
+h1, .col-6{
+	text-align: center;
+}
+.col-6{
+	font-size: 15px;
+}
+#carouselExampleControls{
+	margin: 5% 15%;
+}
+
 #site-page{
 	height:100%;
 	/*margin-top: -5rem;*/
