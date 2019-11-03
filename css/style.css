@@ -95,7 +95,7 @@ ul li a{
 
 #about-section, #facial-section, #products-section, #contact-section{
 	height: auto;
-	padding: 68px 34px;
+	padding: 130px 34px 68px 34px;
 	overflow: hidden;
 }
 #footer{
