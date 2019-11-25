@@ -83,13 +83,13 @@ ul li a{
 	background-color: rgba(0, 0, 0, 0);
 }
 #facial-section{
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(245,245,245);
 }
 #products-section{
-	background-color: pink;
+	background-color: rgba(0, 0, 0, 0);
 }
 #contact-section{
-	background-color: yellow;
+	background-color: rgba(245,245,245);
 }
 
 #about-section, #facial-section, #products-section, #contact-section{
@@ -116,6 +116,7 @@ h1, .col-6{
 .carousel-inner{
 	width: 960px;
 	height: 540px;
+	align-self: center;
 }
 #site-page{
 	height: 100%;
